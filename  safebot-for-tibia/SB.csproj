@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B336A776-F5EE-4404-9935-CB442E8BFE49}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SafeBot</RootNamespace>
+    <AssemblyName>SB</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.4.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Client\Client.cs" />
+    <Compile Include="Client\Image Comparing.cs" />
+    <Compile Include="Core\SaveAs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\SaveAs.Designer.cs">
+      <DependentUpon>SaveAs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core\SaveMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\SaveMenu.Designer.cs">
+      <DependentUpon>SaveMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingame\LooterWn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingame\LooterWn.Designer.cs">
+      <DependentUpon>LooterWn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingame\SettingsWn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingame\SettingsWn.Designer.cs">
+      <DependentUpon>SettingsWn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\Tutorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tutorial\Tutorial.Designer.cs">
+      <DependentUpon>Tutorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hotkeys\Hotkeys.cs" />
+    <Compile Include="Ingame\IntroHUD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingame\IntroHUD.Designer.cs">
+      <DependentUpon>IntroHUD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingame\ManaBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingame\ManaBar.Designer.cs">
+      <DependentUpon>ManaBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingame\Scripter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingame\Scripter.Designer.cs">
+      <DependentUpon>Scripter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingame\Tools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingame\Tools.Designer.cs">
+      <DependentUpon>Tools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Settings.cs" />
+    <Compile Include="Client\WindowsHandlers.cs" />
+    <Compile Include="Core\DialogBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\DialogBox.Designer.cs">
+      <DependentUpon>DialogBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core\DialogBoxProperties.cs" />
+    <Compile Include="Ingame\HealerWn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingame\HealerWn.Designer.cs">
+      <DependentUpon>HealerWn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingame\SetHotkeysWn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingame\SetHotkeysWn.Designer.cs">
+      <DependentUpon>SetHotkeysWn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingame\WTools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingame\WTools.Designer.cs">
+      <DependentUpon>WTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingame\getMove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingame\getMove.Designer.cs">
+      <DependentUpon>getMove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingame\getMoveTo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingame\getMoveTo.Designer.cs">
+      <DependentUpon>getMoveTo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hooks.cs" />
+    <Compile Include="KeyboardHook.cs" />
+    <Compile Include="Player\Player.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Core\SafeBotForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\SafeBotForm.Designer.cs">
+      <DependentUpon>SafeBotForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core\SafeBotMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Core\SafeBotMenu.Designer.cs">
+      <DependentUpon>SafeBotMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\TutorialHealer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tutorial\TutorialHealer.Designer.cs">
+      <DependentUpon>TutorialHealer.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Core\SaveAs.resx">
+      <DependentUpon>SaveAs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\SaveMenu.resx">
+      <DependentUpon>SaveMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingame\SettingsWn.resx">
+      <DependentUpon>SettingsWn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tutorial\Tutorial.resx">
+      <DependentUpon>Tutorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingame\IntroHUD.resx">
+      <DependentUpon>IntroHUD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingame\ManaBar.resx">
+      <DependentUpon>ManaBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingame\Scripter.resx">
+      <DependentUpon>Scripter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingame\Tools.resx">
+      <DependentUpon>Tools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\DialogBox.resx">
+      <DependentUpon>DialogBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingame\HealerWn.resx">
+      <DependentUpon>HealerWn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingame\SetHotkeysWn.resx">
+      <DependentUpon>SetHotkeysWn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingame\WTools.resx">
+      <DependentUpon>WTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingame\getMove.resx">
+      <DependentUpon>getMove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingame\getMoveTo.resx">
+      <DependentUpon>getMoveTo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Core\SafeBotForm.resx">
+      <DependentUpon>SafeBotForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Core\SafeBotMenu.resx">
+      <DependentUpon>SafeBotMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tutorial\TutorialHealer.resx">
+      <DependentUpon>TutorialHealer.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\utanigranhur.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flags.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BKGD.png" />
+    <None Include="Resources\Tile.png" />
+    <None Include="Resources\Tile1.png" />
+    <None Include="Resources\Tile2.png" />
+    <None Include="Resources\Good.png" />
+    <None Include="Resources\Wrong.png" />
+    <None Include="Resources\Wrong2.png" />
+    <None Include="Resources\Wrong2.ico" />
+    <None Include="Resources\BottomLeft.png" />
+    <None Include="Resources\BottomMiddle.png" />
+    <None Include="Resources\BottomRight.png" />
+    <None Include="Resources\Right.png" />
+    <None Include="Resources\TopLeft.png" />
+    <None Include="Resources\TopMiddle.png" />
+    <None Include="Resources\TopRight.png" />
+    <None Include="Resources\TopMiddleLong.png" />
+    <None Include="Resources\Left.png" />
+    <None Include="Resources\RightLong.png" />
+    <None Include="Resources\On_SB.png" />
+    <None Include="Resources\SB.png" />
+    <None Include="Resources\xddddd.png" />
+    <None Include="Resources\Healer.png" />
+    <None Include="Resources\Looter.png" />
+    <None Include="Resources\Settings.png" />
+    <None Include="Resources\Separator.png" />
+    <None Include="Resources\Box.png" />
+    <None Include="Resources\x.png" />
+    <None Include="Resources\Hotkeys.png" />
+    <None Include="Resources\Exit.png" />
+    <None Include="Resources\Tools.png" />
+    <None Include="Resources\WarTools.png" />
+    <None Include="Resources\180x180BOx.png" />
+    <None Include="Resources\Save All.png" />
+    <None Include="Resources\good.ico" />
+    <None Include="Resources\warning.ico" />
+    <None Include="Resources\wrong.ico" />
+    <None Include="Resources\Haste.png" />
+    <None Include="Resources\manashield.png" />
+    <None Include="Resources\ManaBAr.png" />
+    <None Include="Resources\NewManaBar.png" />
+    <None Include="Resources\thenewmanabar.png" />
+    <None Include="Resources\Paralyze.png" />
+    <None Include="Resources\testing.png" />
+    <None Include="Resources\Borders.png" />
+    <None Include="Resources\Borders1.png" />
+    <None Include="Resources\Borders2.png" />
+    <None Include="Resources\Scripter.png" />
+    <None Include="Resources\Outfit_Citizen_Male.gif" />
+    <None Include="Resources\Tibia.png" />
+    <Content Include="favicon.ico" />
+    <Content Include="icon.ico" />
+    <None Include="Resources\SaveMenu.png" />
+    <None Include="Resources\Save_SaveOn.png" />
+    <None Include="Resources\SaveAsOn.png" />
+    <None Include="Resources\SaveExitOn.png" />
+    <Content Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Navigation Server\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

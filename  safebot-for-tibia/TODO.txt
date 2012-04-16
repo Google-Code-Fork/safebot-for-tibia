@@ -1,0 +1,176 @@
+﻿Vacations TO DO list...
+////////////////////********************//////////////////////*****************************//////////////////********
+v.2.0
+This updates brings alot of new functionalities and bug fixes.
+*Resolutions*
+	'Added Support for the following resolutions:'
+		->>1366x768
+		->>1440x900
+		->>1280x800
+*Account Authentication*
+	> The GUI won't freeze anymore on authentication.** Currently in my TODO list.
+	> System Time is no longer taken into accounting, so faking time is no longer possible.
+	> Added an Auto Login function.
+	> If your account or password are incorrect, the bot will now let you know about it, instead of letting it pass off.
+	> Added a section in the Settings Tab for Account Management
+		>> Licence Remaning on the account is now displayed inside this Tab.
+		>> Account in which you are logged on is now displated as well.
+	> Improved Security and added some stuff that will help me manage updates (bug fixes)
+*Settings Tab*
+	>Added a Settings Loader in which you can select what settings you would like to load.
+		>> Improved Settings saving and loading using XML instead of TXT, making it more flexible and user-friendly.
+		>> Fixed the MP High and MP Low Loading Setting.
+	>Added a HUD on Start up; In which you can select whether or not you like fancy HUD to be displayed: Mana Bar is not included.
+		>> Settings may be found on "...//SafeBot//Settings//Setting.xml"
+*Hotkeys Mapping*
+	>Re-made the way it works, it will now work as follows:
+		>> HP High: exura
+		>> HP Mid:	exura Gran
+		>> HP Low:	exura Vita
+		>> Mana Potion: smp (supported actions: mp, smp, gmp, gsp)
+		>> UH(if no mana): uh (supported actions: uh, mp, smp, gmp, gsp)
+		>> Anti Paralyze: utani gran hur
+		>> Auto Mana Shield: utamo vita
+		>> Auto Haste: utani gran hur
+*Healer - WarTools*
+	> "F0" Exceptions won't occur anymore.
+	> Fixed the Mana recovering bug in which High MP wouldn't work unless you had set up the Low one (up to mp).
+	> Fixed an ugly bug that Spammed (badly) the MP Hotkey when Tibia wasn't on Top hogging up the CPU.
+	> Improved HP & MP Accurancy
+	> Fixed a bug where you keep healing when HP & MP = 0
+	< Added Auto SSA / SSA if MP/HP is lower than LOW HP - Although is somewhat buggy and risky (item throwing) is working.
+ (not recommended to use for the moment). - Therefore I decided to unable the feature.
+*Core*
+	> Boosted performance for about 25%
+	> Within this update I will now be able to update the Resolutions Over The Air, resolutions won't be in-code anymore.
+	> Fixed an important Bug ("Invalid Handle") that crashed the Bot whenever a screensaver or a Windows Handle pops over the Screen making the bot unable to keep extracting data from the Client.
+	> Added a Menu-Option on the Save Settings that will let you choose on whether you want to overwrite the Current Setting File or Use a New one.
+		>> Moreover you can now specify a File Name of your own choose or let the Bot to rewrite the default one : "Settings.xml"
+*HUD*
+	> The HUD will now show what Settings you are using and what Cores are being executed at the moment.
+	> HUD may be disable from Menu->Settings->Heads-Up-Display (check/uncheck)
+		>> After it has been disabled, if you wish to see the HUDs you will have to check the case and restart the bot.
+	> ManaBar Colour has been changed to a deeper blue (on 65%->) to make it look more natural.
+
+If you find any bugs feel free to fill up a report post on the forums.
+////////////////////********************//////////////////////*****************************//////////////////********
+
+v.1.5
+This updates fixes a lot of important bugs that went unnoticed.
+>Added a introductional Tutorial
+>Finished the Hotkey Mapping
+>SafeBot should now use less CPU
+>SafeBot will now install in "C:\Program Files\SB"
+>Remade Algorithms that allowed me to iterate through the game window
+
+v.1.4
+//Fixed a bug that didn't read the <5% MP
+// - TODO
+Add Anti PAralyze UH when no mana.
+
+
+v1.3
+
+//The Bot now iterates through the clients and checks if the current character is:
+	*Mana Shielded
+	*Within a Protection Zone
+	*Paralyzed
+
+v.1.2
+//Fixed the Bug from the Mana Bar Function that prevented to refresh the bar backwards when losing mana.
+//The bar is no longer taking the focus out of the Tibia Client
+
+v.1.1
+//Added initial Navigation Server
+//Added Mana Bar
+	*Is working properly until you lose focus of tibia it doesnt refresh backwards.
+
+v1.0.3
+//Added Save All Settings function
+//Added a dummy Account System Which Needs Some Improvements
+
+v1.0.2
+//Integrated the Settings, Hotkeys, Save All And Exit Menus.
+
+v.1.0.1
+//Healer menu has been completely integrated in the SafeBot
+//Safebot Menu Bar should now disappear when losing focus
+
+v.1.0
+//Added the "Information Dialog" Which can be call programatically. <internal usage>
+//GUI Changes are being implemented:: It will include fully aesthetical GUI change.
+//Big improvements on the HP & MP bar, which brings FULLY functionality on the bot for the following resolutions:
+*1366x768
+*1152*864
+
+v.0.9.6
+//Added the Mana Healer with 2 different values
+=> This works as follows:
+Either you set up a "MP High" Value and you will be constantly loading up your mana to the closest % to the value you set up.
+Or you set up a "MP High" and "MP Low" Values and whenever you reach the "MP Low" Value you will be refilled up to the "MP High" Amount.
+//The Bot is no longer able to drag out of the Tibia Client, so the bot looks more "Client-Integrated"*** STILL IN PROGRESS.
+
+v.0.9.5
+//This updates brings compabillity to the following resolutions set:
+*1366x768
+*1360x768
+*1280x800
+*1280*768
+*1280*600
+*1280*720
+*1024*768
+
+v.0.9.4
+//Finally finished fixing all bugs that *I* encountered regarding the HP and MANA bar Reading values
+//Mana Bar is now fully functional.
+
+v.0.9.3
+//Fixed some bugs which prevented the HP bar to be read properly
+//Added the mana bar
+
+v.0.9.2
+//Added a Tibia Client "Flasher" whenever Tibia is performing an action and it is in the background
+//Added a "Bring me to the TOP" function that brings the Tibia Window to the Front if your HP goes anything below your High HP Input in the SafeBot.
+
+v.0.9.1
+//Added a way to notify the user when the tibia handler is in the background!
+
+v0.9
+//Added a way to properly set the Height and Width from the Hoster's Computer and position them in the handle
+window to make the bot functional
+
+v0.8
+//Improved functionality of the Looter System
+//Improved the Healer System 
+//Added some more values to the Settings
+
+v.0.7
+//Added mouse movements
+//Added a funtional Looter System
+
+v0.5
+//Added a function to verify that Tibia's the top window
+
+v.0.4
+//Added Setting System; (Which needs some improvements, however it works!)
+//Added a function to find Tibia's handler and window
+//Added a way to find the RECT properties
+
+v.0.3
+//Fixed Healing system
+//Changed the whole system the bot iterates the HP bar in the client
+//Reduced the CPU % usage drastically from 40%-50% to merely 1%
+//Improved the acurancy system
+
+
+//Integrate Tool and Looter and Settings Windows
+//Hotkeys
+//"Scripter"
+//Add auto attacker
+//auto food
+//Add Account System
+//Add beta accounts
+//Add SSA mover
+//Add more functions
+//auto mana shield
+//click reuse based on last rune used ctrl+click and sleep until cursor is an arrow...

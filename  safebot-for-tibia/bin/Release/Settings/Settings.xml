@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserSettings>
+  <Healer>
+    <HPHigh>89</HPHigh>
+    <HPMid>70</HPMid>
+    <HPLow>50</HPLow>
+    <MPHigh>0</MPHigh>
+    <MPLow>0</MPLow>
+  </Healer>
+  <Hotkeys>
+    <HPHighSpell>exura</HPHighSpell>
+    <HPMidSpell>exura gran</HPMidSpell>
+    <HPLowSpell>exura vita</HPLowSpell>
+    <MPid>smp</MPid>
+    <UHid>uh</UHid>
+    <AntiParalyzeSpell>utani gran hur</AntiParalyzeSpell>
+    <AutoManaSpell></AutoManaSpell>
+    <AutoHasteSpell>utani gran hur</AutoHasteSpell>
+  </Hotkeys>
+</UserSettings>

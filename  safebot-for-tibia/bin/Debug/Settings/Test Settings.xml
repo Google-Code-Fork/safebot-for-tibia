@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserSettings>
+  <Healer>
+    <HPHigh>0</HPHigh>
+    <HPMid>0</HPMid>
+    <HPLow>0</HPLow>
+    <MPHigh>0</MPHigh>
+    <MPLow>0</MPLow>
+  </Healer>
+  <Hotkeys>
+    <HPHighSpell></HPHighSpell>
+    <HPMidSpell></HPMidSpell>
+    <HPLowSpell></HPLowSpell>
+    <MPid></MPid>
+    <UHid>3160</UHid>
+    <AntiParalyzeSpell></AntiParalyzeSpell>
+    <AutoManaSpell></AutoManaSpell>
+    <AutoHasteSpell></AutoHasteSpell>
+  </Hotkeys>
+</UserSettings>

@@ -1,0 +1,26 @@
+C:\Users\Diego Zamonsett\AppData\Local\Temporary Projects\MacroTibia\bin\Debug\MacroTibia.exe
+C:\Users\Diego Zamonsett\AppData\Local\Temporary Projects\MacroTibia\bin\Debug\MacroTibia.pdb
+C:\Users\Diego Zamonsett\AppData\Local\Temporary Projects\MacroTibia\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Diego Zamonsett\AppData\Local\Temporary Projects\MacroTibia\obj\x86\Debug\MacroTibia.Form1.resources
+C:\Users\Diego Zamonsett\AppData\Local\Temporary Projects\MacroTibia\obj\x86\Debug\MacroTibia.Properties.Resources.resources
+C:\Users\Diego Zamonsett\AppData\Local\Temporary Projects\MacroTibia\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Diego Zamonsett\AppData\Local\Temporary Projects\MacroTibia\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Diego Zamonsett\AppData\Local\Temporary Projects\MacroTibia\obj\x86\Debug\MacroTibia.exe
+C:\Users\Diego Zamonsett\AppData\Local\Temporary Projects\MacroTibia\obj\x86\Debug\MacroTibia.pdb
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\obj\x86\Debug\MacroTibia.exe
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\obj\x86\Debug\MacroTibia.pdb
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\bin\Debug\MacroTibia.exe
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\bin\Debug\MacroTibia.pdb
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\obj\x86\Debug\MacroTibia.Form1.resources
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\obj\x86\Debug\MacroTibia.Properties.Resources.resources
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\bin\Debug\MacroTibia.exe.config
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\bin\Debug\en\MacroTibia.resources.dll
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\obj\x86\Debug\MacroTibia.Form1.en.resources
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\obj\x86\Debug\en\MacroTibia.resources.dll
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\obj\x86\Debug\MacroTibia.getMove.resources
+C:\Users\Diego Zamonsett\Documents\Visual Studio 2010\Projects\MAcroTibia\MacroTibia\MacroTibia\obj\x86\Debug\MacroTibia.getMoveTo.resources

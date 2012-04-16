@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserSettings>
+  <Healer>
+    <HPHigh>0</HPHigh>
+    <HPMid>0</HPMid>
+    <HPLow>0</HPLow>
+    <MPHigh>50</MPHigh>
+    <MPLow>0</MPLow>
+  </Healer>
+  <Hotkeys>
+    <HPHighSpell>exura ico</HPHighSpell>
+    <HPMidSpell></HPMidSpell>
+    <HPLowSpell></HPLowSpell>
+    <MPid>mp</MPid>
+    <UHid>mana</UHid>
+    <AntiParalyzeSpell>utani tempo hur</AntiParalyzeSpell>
+    <AutoManaSpell></AutoManaSpell>
+    <AutoHasteSpell>utani tempo hur</AutoHasteSpell>
+  </Hotkeys>
+</UserSettings>
